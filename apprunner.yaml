@@ -1,10 +1,6 @@
 version: 1.0
 runtime: corretto11
-build:
-  commands:
-    build:
-      # - mvn clean package
 run:
-  command: bin/kc.sh start-dev .
+  command: bin/kc.sh start-dev
   network:
     port: 8080
